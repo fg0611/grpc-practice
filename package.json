@@ -1,0 +1,24 @@
+{
+  "name": "code-grpc-julian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "node index",
+    "lint": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "pino": "^7.6.2",
+    "pino-pretty": "^7.3.0"
+  }
+}

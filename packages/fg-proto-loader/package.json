@@ -1,0 +1,13 @@
+{
+  "name": "fg-proto-loader",
+  "version": "1.0.0",
+  "description": "grpc-proto-loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.4.5",
+    "@grpc/proto-loader": "^0.1.0"
+  }
+}
